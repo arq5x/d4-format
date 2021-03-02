@@ -45,10 +45,10 @@ ARGS:
   d4utils create -Azr hg19.fa.gz.fai hg002.cram hg002.d4
 ```
 
-- From BigWig file
+- From an RNA-seq BigWig file
 
 ```bash
-  d4utils create -z input.bw output.d4
+  d4utils create -z -d0-1 input.bw output.d4
 ```
 
 - From a BedGraph file
